@@ -1,56 +1,35 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Our Coffee
-image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+title: Products
+image: /img/productBackground.jpg
+heading: Great Grains
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  These products all represent a large quantity of individually desinged and uniquely sourced products. Each catagory has aplethora of other options and variations that can be achieved through Dave Designs.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/woodPin.jpg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        We make wood pins that have cookie making potential unseen in other rollers. Our unique products are created by Dave with an individual in mind. The Pins that we make are uniquely decorative and functional unparalleled. 
+    - image: /img/cribbage.jpg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        Cribbage is one of our favorite games! We really enjoy making these products for people to ejoy. They are made to match any color scheme provided by the customer, and they lasr long enough to have your grandchildren play with their grandchildren.
+    - image: /img/bowl.jpg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
+        Our bowls are decorative enough to sit on shelves as art work, but sturdy enough to be used every day for cereal. Made from the finest of local products these bowls will give you a lifetime of decorative feasting capabilities.
+    - image: /img/board.jpg
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Our boards are simply lovely to look at, but also sturdy enough to be cut on every day. Coming in any color or design, these can be tailor made to every customer.
   heading: What we offer
-  description: >
+  description: >-
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Best wood in New Hampshire
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    We really value both design quality and productive usability. Along with our high standard, we value locally sourced wood and providing for local businesses to thrive from our production.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -61,14 +40,12 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Nicole Ferron
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      Absolutely Beautiful!
+  - author: Tia Lavertu
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+       I love my rolling pin. So excited to use it one the next pizza we make!
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions

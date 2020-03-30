@@ -2,8 +2,8 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
+$kaldi-red: rgb(0, 128, 96)
+$kaldi-red-invert: white
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
@@ -61,10 +61,10 @@ $black: #2b2523
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: $primary
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px rgb(0, 128, 96)
+    box-shadow: inset 0 0 0 2px rgb(0, 128, 96)
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -138,3 +138,114 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+  // my stuff
+#footerText
+  color: $primary !important
+
+.navBarHome 
+  font-size: 1.5em
+  color: $primary
+
+  // my Form
+.inputBars
+  width: 25vw   
+  height: 3vh 
+  border-radius: .25rem
+  border: solid black 2px
+
+.inputBars:hover
+  border: solid grey 2px  
+
+.myTextArea
+  border: solid black 2px
+  width: 35vw
+
+.myTextArea:hover
+  border: solid grey 2px
+
+.buttonStyle
+  width: 6vw
+  height: 4vh
+  background-color: rgb(0, 128, 96)
+  border: none
+  border-radius: .25rem
+  font-size: 1.3em
+  color: $white-ter
+
+.buttonStyle:hover
+  transform: translateY(-.1vh)  
+  background-color: rgb(0, 133, 96)
+
+@media only screen and (max-height: 600px)
+  .buttonStyle
+    height: 7vh
+
+  .inputBars
+    height: 5vh  
+
+@media only screen and (max-height: 400px)
+  .buttonStyle
+    height: 11vh
+
+  .inputBars
+    height: 9vh  
+
+@media only screen and (max-height: 200px)
+  .buttonStyle
+    height: 15vh
+
+  .inputBars
+    height: 12vh  
+
+@media only screen and (max-width: 1225px) 
+  .buttonStyle
+    font-size: 1.1em
+    width: 7.5vw
+
+  .inputBars
+    width: 30vw   
+    height: 3vh  
+
+  .myTextArea
+    width: 40vw   
+
+@media only screen and (max-width: 993px) 
+  .buttonStyle
+    width: 8.5vw
+    font-size: 1.1em
+
+  .inputBars
+    width: 35vw   
+    height: 3vh  
+
+  .myTextArea
+    width: 45vw 
+
+@media only screen and (max-width: 808px) 
+  .buttonStyle
+    width: 15vw
+    font-size: 1.1em
+
+  .inputBars
+    width: 45vw   
+    height: 3vh  
+
+  .myTextArea
+    width: 55vw 
+
+@media only screen and (max-width: 633px) 
+  .buttonStyle
+    font-size: 1.1em
+    width: 19vw
+
+  .inputBars
+    width: 50vw   
+    height: 3vh  
+
+  .myTextArea
+    width: 60vw 
+
+
+
+ 

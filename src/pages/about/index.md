@@ -3,17 +3,14 @@ templateKey: 'about-page'
 path: /about
 title: About our values
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Locally Sourced Materials
+We get all of our exotic woods directly from locally production in New Hampshire. We enjoy local relationships that make getting the products and materials we need easy.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### Hand Made
+Every piece that is constructed is made from hand here at our production facility. This allows for quality that is replicated through each piece made. It also makes for uniqueness, no two pieces are exactly the same.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### On Request Designs
+Customers like to get exactly what they want, and we strive to meet them in that goal. Anyone can request a product that they want, and we will find a way to design it with a unique flair.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Sustainability
+We source our materials from local production facilities that ensure sustainable practices.

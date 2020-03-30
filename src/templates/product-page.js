@@ -4,8 +4,6 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ProductPageTemplate = ({
   image,
@@ -15,8 +13,6 @@ export const ProductPageTemplate = ({
   intro,
   main,
   testimonials,
-  fullImage,
-  pricing,
 }) => (
   <div className="content">
     <div
@@ -30,8 +26,8 @@ export const ProductPageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-          backgroundColor: '#f40',
+          boxShadow: '0.5rem 0 0 rgb(0, 128, 96), -0.5rem 0 0 rgb(0, 128, 96)',
+          backgroundColor: 'rgb(0, 128, 96)',
           color: 'white',
           padding: '1rem',
         }}
@@ -59,43 +55,7 @@ export const ProductPageTemplate = ({
                   <p>{main.description}</p>
                 </div>
               </div>
-              <div className="tile is-ancestor">
-                <div className="tile is-vertical">
-                  <div className="tile">
-                    <div className="tile is-parent is-vertical">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image1} />
-                      </article>
-                    </div>
-                    <div className="tile is-parent">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image2} />
-                      </article>
-                    </div>
-                  </div>
-                  <div className="tile is-parent">
-                    <article className="tile is-child">
-                      <PreviewCompatibleImage imageInfo={main.image3} />
-                    </article>
-                  </div>
-                </div>
-              </div>
               <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-              />
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
             </div>
           </div>
         </div>
@@ -141,8 +101,6 @@ const ProductPage = ({ data }) => {
         intro={frontmatter.intro}
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
-        fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
       />
     </Layout>
   )

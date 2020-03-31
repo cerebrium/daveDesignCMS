@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: gitLab
   branch: cerebrium/daveDesignCMS
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'

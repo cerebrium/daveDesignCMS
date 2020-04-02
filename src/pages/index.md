@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Dave Designs extrodinaire
+title: 'Dave Designs '
 image: /img/homeWood.jpg
 heading: Any shape or design
 subheading: Enjoy fantastic products with great service

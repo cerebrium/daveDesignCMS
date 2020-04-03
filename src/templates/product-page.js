@@ -26,9 +26,9 @@ export const ProductPageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0 rgb(0, 128, 96), -0.5rem 0 0 rgb(0, 128, 96)',
-          backgroundColor: 'rgb(0, 128, 96)',
-          color: 'white',
+          boxShadow: '0.5rem 0 0 rgb(256, 256, 256, .85), -0.5rem 0 0 rgb(256, 256, 256, .85)',
+          backgroundColor: 'rgb(256, 256, 256, .85)',
+          color: 'black',
           padding: '1rem',
         }}
       >
@@ -138,57 +138,10 @@ export const productPageQuery = graphql`
         main {
           heading
           description
-          image1 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image2 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image3 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
         }
         testimonials {
           author
           quote
-        }
-        full_image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
-          }
         }
       }
     }

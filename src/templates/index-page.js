@@ -36,9 +36,9 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(0, 128, 96) 0.5rem 0px 0px, rgb(0, 128, 96) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(0, 128, 96)',
-            color: 'white',
+              'rgb(256, 256, 256, .85) 0.5rem 0px 0px, rgb(256, 256, 256, .85) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(256, 256, 256, .85)',
+            color: 'black',
             lineHeight: '1',
             padding: '0.25em',
           }}
@@ -49,9 +49,9 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
-              'rgb(0, 128, 96) 0.5rem 0px 0px, rgb(0, 128, 96) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(0, 128, 96)',
-            color: 'white',
+              'rgb(256, 256, 256, .85) 0.5rem 0px 0px, rgb(256, 256, 256, .85) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(256, 256, 256, .85)',
+            color: 'black',
             lineHeight: '1',
             padding: '0.25em',
           }}
@@ -73,13 +73,26 @@ export const IndexPageTemplate = ({
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
+                  <div className='horizontalDivision'></div>
+                  <div className="tile">
+                    <h1 className="title">Locally Sourced Materials</h1>
+                  </div>
+                  <div className="tile">
+                    <h3 className="subtitle">We get all of our exotic woods directly from locally production in New Hampshire. We enjoy local relationships that make getting the products and materials we need easy.</h3>
+                  </div>
+                  <div className='horizontalDivision'></div>
+                  <div className="tile">
+                    <h1 className="title">On Request Designs</h1>
+                  </div>
+                  <div className="tile">
+                    <h3 className="subtitle">Customers like to get exactly what they want, and we strive to meet them in that goal. Anyone can request a product that they want, and we will find a way to design it with a unique flair.</h3>
+                  </div>
+                  <div className='horizontalDivision'></div>
+                  <div className="tile">
+                    <h1 className="title">Sustainable</h1>
+                  </div>
+                  <div className="tile">
+                    <h3 className="subtitle">We source our materials from local production facilities that ensure sustainable practices. Sustainable production is an important part of any business, and we pride ourselves on our practice</h3>
                   </div>
                 </div>
                 <div className="columns">
@@ -153,20 +166,6 @@ export const pageQuery = graphql`
           description
         }
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
       }
     }
   }

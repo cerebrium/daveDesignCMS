@@ -1,17 +1,11 @@
 ---
 templateKey: index-page
 title: 'Dave Designs '
-image: /img/homeWood.jpg
+image: /img/fern.jpg
 heading: Any shape or design
 subheading: Enjoy fantastic products with great service
 mainpitch:
-  title: Why Dave
+  title: Hand Made
   description: >
-    Dave uses exotic wood from all over the world to achieve the color and
-    design he is looking for. Each plank of wood is hand picked from local
-    businesses in New Hampshire. Locally crafted, exquisitely finished, made
-    with a soul.
-description: >-
-  "Cutting boards, rolling pins, and segmented wood bowls are my specialty but I
-  like doing something different, keep on the look out for new products." -Dave
+    Every piece that is constructed is made from hand here at our production facility. This allows for quality that is replicated through each piece made. It also makes for uniqueness, no two pieces are exactly the same.
 ---

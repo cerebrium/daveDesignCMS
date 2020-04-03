@@ -6,10 +6,8 @@ import Layout from '../components/Layout'
 export const IndexPageTemplate = ({
   image,
   title,
-  heading,
   subheading,
   mainpitch,
-  description,
 }) => (
   <div>
     <div

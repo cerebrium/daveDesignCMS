@@ -6,7 +6,7 @@ import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-// comment
+
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
@@ -19,18 +19,18 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix('/')}img/daveGreek.png`}
+          href={`${withPrefix('/')}img/topLogo.png`}
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/daveGreek.png`}
+          href={`${withPrefix('/')}img/topLogo.png`}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/daveGreek.png`}
+          href={`${withPrefix('/')}img/topLogo.png`}
           sizes="16x16"
         />
 

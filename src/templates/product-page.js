@@ -23,17 +23,29 @@ export const ProductPageTemplate = ({
         })`,
       }}
     >
-      <h2
-        className="has-text-weight-bold is-size-1"
+    <div className='black_overlay full-width-image margin-top-0'>
+      <div
         style={{
-          boxShadow: '0.5rem 0 0 rgb(256, 256, 256, .85), -0.5rem 0 0 rgb(256, 256, 256, .85)',
-          backgroundColor: 'rgb(256, 256, 256, .85)',
-          color: 'black',
-          padding: '1rem',
+          display: 'flex',
+          height: '150px',
+          lineHeight: '1',
+          justifyContent: 'space-around',
+          alignItems: 'left',
+          flexDirection: 'column',
         }}
       >
-        {title}
-      </h2>
+        <h2 className='title_font'
+          id='product_title'
+          style={{
+            fontFamily: 'Caveat',
+            color: 'white',
+            fontWeight: 400
+          }}
+          >
+            {title}
+        </h2>
+      </div>
+    </div>
     </div>
     <section className="section section--gradient">
       <div className="container">

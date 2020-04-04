@@ -5,7 +5,6 @@ import Layout from '../components/Layout'
 
 export const IndexPageTemplate = ({
   image,
-  title,
   subheading,
   mainpitch,
 }) => (
@@ -20,6 +19,7 @@ export const IndexPageTemplate = ({
         backgroundAttachment: `fixed`,
       }}
     >
+      <div className='black_overlay full-width-image margin-top-0'>
       <div
         style={{
           display: 'flex',
@@ -30,32 +30,15 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+        <h2 className='title_font'
           style={{
-            boxShadow:
-              'rgb(256, 256, 256, .85) 0.5rem 0px 0px, rgb(256, 256, 256, .85) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(256, 256, 256, .85)',
-            color: 'black',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(256, 256, 256, .85) 0.5rem 0px 0px, rgb(256, 256, 256, .85) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(256, 256, 256, .85)',
-            color: 'black',
-            lineHeight: '1',
-            padding: '0.25em',
+            fontFamily: 'Caveat',
+            color: 'white'
           }}
         >
           {subheading}
-        </h3>
+        </h2>
+      </div>
       </div>
     </div>
     <section className="section section--gradient">
@@ -113,7 +96,6 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
@@ -127,7 +109,6 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
-        title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
@@ -151,7 +132,6 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {

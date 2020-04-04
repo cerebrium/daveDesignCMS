@@ -24,7 +24,12 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Subheading, name: subheading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
+          - {label: Mainpitch, name: mainpitch, widget: object, fields: [
+            {label: Title, name: title, widget: string}, {label: Description, name: description, widget: text},
+            {label: TitleTwo, name: titleTwo, widget: string}, {label: DescriptionTwo, name: descriptionTwo, widget: text},
+            {label: TitleThree, name: titleThree, widget: string}, {label: DescriptionThree, name: descriptionThree, widget: text},
+            {label: TitleFour, name: titleFour, widget: string}, {label: DescriptionFour, name: descriptionFour, widget: text}
+            ]}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"

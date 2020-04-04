@@ -66,33 +66,35 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h2 className="title">{mainpitch.title}</h2>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <p className="subtitle">{mainpitch.description}</p>
                   </div>
                   <div className='horizontalDivision'></div>
                   <div className="tile">
-                    <h1 className="title">Locally Sourced Materials</h1>
+                    <h2 className="title">{mainpitch.titleTwo}</h2>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">We get all of our exotic woods directly from locally production in New Hampshire. We enjoy local relationships that make getting the products and materials we need easy.</h3>
+                    <p className="subtitle">{mainpitch.descriptionTwo}</p>
                   </div>
                   <div className='horizontalDivision'></div>
                   <div className="tile">
-                    <h1 className="title">On Request Designs</h1>
+                    <h2 className="title">{mainpitch.titleThree}</h2>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">Customers like to get exactly what they want, and we strive to meet them in that goal. Anyone can request a product that they want, and we will find a way to design it with a unique flair.</h3>
+                    <p className="subtitle">{mainpitch.descriptionThree}</p>
                   </div>
                   <div className='horizontalDivision'></div>
                   <div className="tile">
-                    <h1 className="title">Sustainable</h1>
+                    <h2 className="title">{mainpitch.titleFour}</h2>
+                  </div>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">We source our materials from local production facilities that ensure sustainable practices. Sustainable production is an important part of any business, and we pride ourselves on our practice</h3>
+                    <p className="subtitle">{mainpitch.descriptionFour}</p>
                   </div>
-                </div>
+                  <div className='horizontalDivisionTwo'></div>
+
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
@@ -104,7 +106,7 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
-      </div>
+      </div>  
     </section>
   </div>
 )
@@ -162,6 +164,12 @@ export const pageQuery = graphql`
         mainpitch {
           title
           description
+          titleTwo
+          descriptionTwo
+          titleThree
+          descriptionThree
+          titleFour
+          descriptionFour
         }
         description
       }

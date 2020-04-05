@@ -3,7 +3,7 @@ heading: Great Grains
 path: /products
 templateKey: product-page
 title: Products
-image: /img/fernFive.jpg
+image: /img/fernThree.jpg
 description: >-
   These products all represent a large quantity of individually desinged and
   uniquely sourced products. Each catagory has aplethora of other options and

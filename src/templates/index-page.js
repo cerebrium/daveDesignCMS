@@ -50,34 +50,33 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="tile">
                     <h2 className="title">{mainpitch.title}</h2>
+                    </div>
+                    <div className="tile">
+                      <p className="subtitle">{mainpitch.description}</p>
+                    </div>
+                    <div className='horizontalDivision'></div>
+                    <div className="tile">
+                      <h2 className="title">{mainpitch.titleTwo}</h2>
+                    </div>
+                    <div className="tile">
+                      <p className="subtitle">{mainpitch.descriptionTwo}</p>
+                    </div>
+                    <div className='horizontalDivision'></div>
+                    <div className="tile">
+                      <h2 className="title">{mainpitch.titleThree}</h2>
+                    </div>
+                    <div className="tile">
+                      <p className="subtitle">{mainpitch.descriptionThree}</p>
+                    </div>
+                    <div className='horizontalDivision'></div>
+                    <div className="tile">
+                      <h2 className="title">{mainpitch.titleFour}</h2>
+                    </div>
+                    <div className="tile">
+                      <p className="subtitle">{mainpitch.descriptionFour}</p>
+                    </div>
+                    <div className='horizontalDivisionTwo'></div>
                   </div>
-                  <div className="tile">
-                    <p className="subtitle">{mainpitch.description}</p>
-                  </div>
-                  <div className='horizontalDivision'></div>
-                  <div className="tile">
-                    <h2 className="title">{mainpitch.titleTwo}</h2>
-                  </div>
-                  <div className="tile">
-                    <p className="subtitle">{mainpitch.descriptionTwo}</p>
-                  </div>
-                  <div className='horizontalDivision'></div>
-                  <div className="tile">
-                    <h2 className="title">{mainpitch.titleThree}</h2>
-                  </div>
-                  <div className="tile">
-                    <p className="subtitle">{mainpitch.descriptionThree}</p>
-                  </div>
-                  <div className='horizontalDivision'></div>
-                  <div className="tile">
-                    <h2 className="title">{mainpitch.titleFour}</h2>
-                  </div>
-                  </div>
-                  <div className="tile">
-                    <p className="subtitle">{mainpitch.descriptionFour}</p>
-                  </div>
-                  <div className='horizontalDivisionTwo'></div>
-
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">

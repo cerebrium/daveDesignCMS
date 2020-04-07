@@ -17,7 +17,7 @@ const Footer = class extends React.Component {
           <p className='address'>Address: 15234 ballpark ln., 184th st, New Hampshire</p>
         </div>
         <div className='horizontalDivisionFour'></div>
-          <div className="social">
+          <div className="social" id='bottomOfFooter'>
             <div>
               <a title="facebook" href="https://www.facebook.com/DaveDesignsWoodWorking/">
                 <img

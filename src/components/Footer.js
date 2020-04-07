@@ -14,7 +14,7 @@ const Footer = class extends React.Component {
         </div>
         <div className='horizontalDivisionThree'></div>
         <div className='centerAddress'>
-          <p className='address'>Address: 15234 needAdrees, 184th street</p>
+          <p className='address'>Address: 15234 ballpark ln., 184th st, New Hampshire</p>
         </div>
         <div className='horizontalDivisionFour'></div>
           <div className="social">

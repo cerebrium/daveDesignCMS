@@ -39,11 +39,12 @@ export const ProductPageTemplate = ({
           style={{
             fontFamily: 'Satisfy',
             color: 'white',
+            textShadow: '2px 2px 2px',
             fontWeight: 400
           }}
           >
             {title}
-        </h2>
+        </h2>``
       </div>
     </div>
     </div>

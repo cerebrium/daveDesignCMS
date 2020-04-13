@@ -28,36 +28,36 @@ const Footer = ( ) => {
       <div className='horizontalDivisionFour'></div>
         <div className="social" id='bottomOfFooter'>
           <div>
-            <a title="facebook" href="https://www.facebook.com/DaveDesignsWoodWorking/" target="_blank">
+            <a title="facebook" href="https://www.facebook.com/DaveDesignsWoodWorking/" target="_blank" className='bottomeCircles'>
               <img
                 src={facebook}
                 alt="Facebook"
-                style={{ width: '1em', height: '1em' }}
+                style={{ width: '1em', height: '1em', zIndex: .8 }}
               />
             </a>
           </div>
           <div>
-            <div className='aFake'>
+            <a title="telephone" href='tel:1-206-111-1234' target="_blank" className='bottomeCircles'>
               <img
                 className="fas fa-lg"
                 src={twitter}
                 alt="Twitter"
-                style={{ width: '1em', height: '1em' }}
-                onClick={handleClick}
+                style={{ width: '1em', height: '1em', zIndex: .8 }}
               />
-            </div>
+            </a>
           </div>
           <div>
-            <Link to='/contact' id='bottomLink'>
+            <a title="telephone" href='mailto:DaveDesigns@gmail.com' target="_blank" className='bottomeCircles'>
               <img
                 src={instagram}
                 alt="Mail"
                 style={{
                   width: '1em',
-                  height: '1em'
+                  height: '1em',
+                  zIndex: .8
                 }}
               />
-            </Link>
+            </a>
           </div>
         </div>
     </footer>

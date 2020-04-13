@@ -31,8 +31,7 @@ export const IndexPageTemplate = ({
         <h2 className='title_font'
           style={{
             fontFamily: 'Satisfy',
-            color: 'white',
-            textShadow: '2px 2px 2px'
+            color: 'white'
           }}
         >
           {subheading}

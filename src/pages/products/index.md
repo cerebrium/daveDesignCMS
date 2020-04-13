@@ -49,5 +49,5 @@ testimonials:
   - author: Nicole Ferron
     quote: Absolutely Beautiful!
   - author: Tia Lavertu
-    quote: I love my rolling pin. So excited to use it one the next pizza we make!
+    quote: I love my rolling pin. So excited to use it on the next pizza we make!
 ---

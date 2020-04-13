@@ -45,11 +45,11 @@ const Index = () => {
           <div className="content">
             <h1>Contact</h1>
             <form onSubmit={submitForm} action='https://formspree.io/meqelkae' method="POST" className='myForm'>
-              <h3>Name:</h3>
+              <h3 id='name'>Name:</h3>
               <input type="text" name="name" className='inputBars'/><br/>
-              <h3>Email:</h3>
+              <h3 id='email'>Email:</h3>
               <input type="email" name="email" className='inputBars'/><br/>
-              <h3>Message:</h3>
+              <h3 id='message'>Message:</h3>
               <textarea type="textarea" rows='15' cols='16' name="message" className='myTextArea'></textarea><br/>
               {status === "SUCCESS" ? <p>Thanks!</p> : <button className='buttonStyle'>Submit</button>}
               {status === "ERROR" && <p>Ooops! There was an error.</p>}
@@ -60,27 +60,10 @@ const Index = () => {
     </Layout>
     )
   }
-
     return (
-      <Layout>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <h1>Contact</h1>
-              <form onSubmit={submitForm} action='https://formspree.io/meqelkae' method="POST" className='myForm'>
-              <h3>Name:</h3>
-              <input type="text" name="name" className='inputBars'/><br/>
-              <h3>Email:</h3>
-              <input type="email" name="email" className='inputBars'/><br/>
-              <h3>Message:</h3>
-              <textarea type="textarea" rows='15' cols='16' name="message" className='myTextArea'></textarea><br/>
-              {status === "SUCCESS" ? <p>Thanks!</p> : <button className='buttonStyle'>Submit</button>}
-              {status === "ERROR" && <p>Ooops! There was an error.</p>}
-          </form>
-            </div>
-          </div>
-        </section>
-      </Layout>
+      <>
+        {myContent}
+      </>
     )
 }
 

@@ -37,7 +37,7 @@ export const ProductPageTemplate = ({
         <h2 className='title_font'
           id='product_title'
           style={{
-            fontFamily: 'Caveat',
+            fontFamily: 'Satisfy',
             color: 'white',
             fontWeight: 400
           }}

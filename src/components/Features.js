@@ -6,11 +6,11 @@ const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
       <div key={item.text} className="column is-6">
-        <section className="section">
+        <section className="sectionTwo">
           <div className="has-text-centered">
             <div
               style={{
-                width: '90%',
+                width: '100%',
                 display: 'inline-block',
               }}
             >

@@ -32,7 +32,7 @@ export const IndexPageTemplate = ({
       >
         <h2 className='title_font'
           style={{
-            fontFamily: 'Caveat',
+            fontFamily: 'Satisfy',
             color: 'white'
           }}
         >
@@ -43,7 +43,7 @@ export const IndexPageTemplate = ({
     </div>
     <section className="section section--gradient">
       <div className="container">
-        <div className="section">
+        <div className="sectionThree">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">

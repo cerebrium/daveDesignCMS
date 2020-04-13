@@ -76,7 +76,10 @@ module.exports = {
       options: {
         fonts: [
           `Caveat`,
-          `cursive` // you can also specify font weights and styles
+          'Pacifico',
+          'Satisfy',
+          `cursive`,
+           // you can also specify font weights and styles
         ],
         display: 'swap'
       }

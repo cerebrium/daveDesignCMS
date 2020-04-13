@@ -68,6 +68,9 @@ $black: #2b2523
   -webkit-transition: all .15s ease
   transition: all .15s ease
 
+#navMenu
+  padding-top: 7px
+
 .btn:hover
   color: rgb(25, 189, 148)
 
@@ -78,6 +81,9 @@ $black: #2b2523
   color: $primary
 
 #link1:hover
+  color: rgb(0, 128, 96)
+
+#link3:hover
   color: rgb(0, 128, 96)
 
 #link2:hover
@@ -154,6 +160,7 @@ $menu-label-color: $white-ter
     margin: 0 0 1em;
 
   /**************************** MY STUFF ****************************/ 
+
 #footerText
   color: $primary !important
 
@@ -182,11 +189,33 @@ $menu-label-color: $white-ter
   background-color: #ffffff2c
   width: 30vw
 
+.clicked
+  animation: phoneEffect 2s 
+
 .underPicText
-  width: 80%
-  margin-left: 10%  
+  width: 100%
   text-align: justify
   font-size: .93rem
+
+.aFake
+  padding: .5em .5em .3em .5em
+  border-radius: 1em
+  background-color: whitesmoke
+  margin: .5em
+  width: 1em
+  height: 1em
+  vertical-align: middle
+  display: inline 
+
+#bottomLink
+  padding: .5em .5em .3em .5em
+  border-radius: 1em
+  background-color: whitesmoke
+  margin: .5em
+  width: 1em
+  height: 1em
+  vertical-align: middle
+  display: inline  
 
 .horizontalDivisionFour
   margin: 4vh auto 4vh
@@ -228,15 +257,18 @@ $menu-label-color: $white-ter
   width: 25vw   
   height: 3vh 
   border-radius: .25rem
-  border: solid #0000008c 1px
+  border: solid rgba(0,0,0,.23) 1px
+  padding: 5px
 
 .inputBars:hover
   border: solid black 1.1px  
 
 .myTextArea
-  border: solid #0000008c 1px
+  border: solid rgba(0,0,0,.23) 1px
   border-radius: .25rem
   width: 35vw
+  padding: 5px
+  margin-bottom: 15px
 
 .myTextArea:hover
   border: solid black 1.1px
@@ -245,6 +277,15 @@ $menu-label-color: $white-ter
   font-size: 6em
   margin-bottom: 0
   font-style: normal
+
+#message
+  margin-bottom: .25rem
+
+#name
+  margin-bottom: .25rem
+
+#email
+  margin-bottom: .25rem
 
 p 
   text-align: justify  
@@ -268,12 +309,25 @@ p
   border-radius: .25rem
   font-size: 1.3em
   color: $white-ter
+
 .address
   text-align: center
 
 .buttonStyle:hover
   transform: translateY(-.1vh)  
   background-color: rgb(0, 133, 96)
+
+@keyframes phoneEffect
+  0%
+    color: whitesmoke
+
+  50%
+    color: rgb(0, 133, 96) 
+    font-size: 1.01em 
+    
+  100%
+    color: whitesmoke
+      
 
 @media only screen and (max-height: 600px)
   .buttonStyle

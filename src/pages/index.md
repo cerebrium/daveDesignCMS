@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: 'Dave Designs '
-image: /img/fern.jpg
+image: /img/fernEight.jpg
 heading: Any shape or design
 subheading: Wood Work With A Soul
 mainpitch:

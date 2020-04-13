@@ -15,11 +15,9 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
       }}
     >
-      <div className='black_overlay full-width-image margin-top-0'>
+      <div className='black_overlay_one full-width-image margin-top-0'>
       <div
         style={{
           display: 'flex',

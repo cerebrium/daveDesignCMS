@@ -28,7 +28,8 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <h2 className='title_font'
+        <h2 className='title_font' 
+          id='index_title'
           style={{
             fontFamily: 'Satisfy',
             color: 'white'
